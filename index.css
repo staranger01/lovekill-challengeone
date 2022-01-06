@@ -1,0 +1,589 @@
+
+#calculator-main {
+  border: 5px solid black;
+  height: 340px;
+  width: 260px;
+  padding: 20px;
+  text-align: center;
+  table-layout: auto;
+  background-color: white;
+  position: relative;
+  margin: 10px auto 10px auto;
+
+}
+
+#calculator-screen {
+  height: 45px;
+  border: 2px solid black;
+  background-color: white;
+
+
+}
+#buttons-section{
+  border: 1px solid black;
+  height: 280px;
+  width: 200px;
+  padding: 10px;
+  table-layout: auto;
+  background-color: white;
+
+
+}
+
+
+
+hr {
+  color: black;
+  border: 3px dashed black;
+}
+
+
+
+
+/*  Start Button 0 */
+
+.zero {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.zero:hover {
+  background-color:green;
+
+}
+
+.zero:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+/* End Button 0*/
+
+/*  Start Button 1 */
+
+.one {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.one:hover {
+  background-color:green;
+
+}
+
+.one:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+
+/* End Button 1*/
+
+/*  Start Button 2 */
+
+.two {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.two:hover {
+  background-color:green;
+
+}
+
+.two:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+
+/* End Button 2*/
+
+/*  Start Button 3 */
+
+.three {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.three:hover {
+  background-color:green;
+
+}
+
+.three:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+/* End Button 3*/
+
+/*  Start Button 4 */
+
+.four {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.four:hover {
+  background-color:green;
+
+}
+
+.four:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+/* End Button 4*/
+
+/*  Start Button 5 */
+
+.five {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.five:hover {
+  background-color:green;
+
+}
+
+.five:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+/* End Button 5*/
+
+/*  Start Button 6 */
+.six {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.six:hover {
+  background-color:green;
+
+}
+
+.six:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+
+/* End Button 6*/
+
+/*  Start Button 7 */
+
+.seven {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.seven:hover {
+  background-color:green;
+
+}
+
+.seven:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+/* End Button 7*/
+
+/*  Start Button 8 */
+
+.eight {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.eight:hover {
+  background-color:green;
+
+}
+
+.eight:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+
+
+/* End Button 8*/
+
+/*  Start Button 9 */
+.nine {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.nine:hover {
+  background-color:green;
+
+}
+
+.nine:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+
+/* End Button 9*/
+
+/************* Start of Function Buttons *************/
+
+/*  Start Addition Button */
+
+.plus {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.plus:hover {
+  background-color:green;
+
+}
+
+.plus:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+/* End Addition Button*/
+
+/*  Start Subtraction Button */
+.minus {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.minus:hover {
+  background-color:green;
+
+}
+
+.minus:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+
+/* End Subtraction Button*/
+
+/*  Start Multiplication Button */
+
+.multiplication {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.multiplication:hover {
+  background-color:green;
+
+}
+
+.multiplication:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+/* End Multiplication Button */
+
+/*  Start Division Button  */
+
+.division {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.division:hover {
+  background-color:green;
+
+}
+
+.division:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+/* End Division Button*/
+
+/*  Start Equal Button  */
+.equals {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.equals:hover {
+  background-color:green;
+
+}
+
+.equals:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+
+/* End Equal Button */
+
+/*  Start Decimal Button  */
+
+.decimal {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.decimal:hover {
+  background-color:green;
+
+}
+
+.decimal:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+
+
+/* End Decimal Button*/
+
+/*  Start Percentage Button  */
+.modulo {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.modulo:hover {
+  background-color:green;
+
+}
+
+.modulo:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+
+/* End Percentage Button*/
+
+/*  Start Plus/Minus Button  */
+
+.plus-and-minus {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.plus-and-minus:hover {
+  background-color:green;
+
+}
+
+.plus-and-minus:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+/* End Plus/Minus Button*/
+
+/*  Start Square Root Button */
+.square-root {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.square-root:hover {
+  background-color:green;
+
+}
+
+.square-root:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+
+/* End Square Root Button*/
+
+/*  Start Clear Button  */
+.clear {
+  background-color: lime;
+  font-size: 40px;
+  color: black;
+  box-shadow: 3px 5px 3px 1px blue;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.clear:hover {
+  background-color:green;
+
+}
+
+.clear:active {
+  background-color: blue;
+  color:black;
+  box-shadow: 3px 5px 3px 1px green;
+  transform: translateY(4px);
+
+}
+
+
+/* End Clear Button*/
