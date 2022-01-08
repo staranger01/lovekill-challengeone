@@ -1,6 +1,6 @@
 // Variables for each button
-const buttons = document.querySelectorAll(".buttons-section > .button]"); 
-const operator = document.querySelectorAll(".operator");
+const numberButtons = document.getElementById(["seven", "eight", "nine", "four", "five", "six", "one", "two", "three"]); 
+const operator = document.getElementById(["division", "addition", "multiplication", "square root", "minus", "modulo"]);
 const equalSign = document.getElementById("equals");
 const clearButton = document.getElementById("clear");
 const plusMinus = document.getElementById("plus and minus");
@@ -45,7 +45,7 @@ function modulus() {
 }
 
 //function squareRoot() {
-    
+   // return a ;
 //}
 
 
@@ -65,6 +65,9 @@ function operate(a, b, operator) {
             break;
         case "modulus":
             return modulus(a, b);
+            break;
+        case "squareRoot":
+            return squareRoot(a, a);
             break;
     }
 }
