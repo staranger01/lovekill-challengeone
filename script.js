@@ -1,24 +1,39 @@
 // Variables for each button
-const numberButtons = document.getElementById(["seven", "eight", "nine", "four", "five", "six", "one", "two", "three"]); 
-const operator = document.getElementById(["division", "addition", "multiplication", "square root", "minus", "modulo"]);
+const numberButtons = document.querySelectorAll("[data-number]"); 
+const operator = document.querySelectorAll("[data-operation]");
 const equalSign = document.getElementById("equals");
 const clearButton = document.getElementById("clear");
 const plusMinus = document.getElementById("plus and minus");
 const decimal = document.getElementById("decimal");
 const calculatorScreen = document.getElementById("calculator-screen")
 
+const calculator = new Calculator(calculatorScreen)
+
+numberButtons.foreach(button => {
+    button.addeventListener('click', () => {
+        calculator.appendNumber(button.innerText)
+        calculator.updateDisplay()
+    })
+})
+
 // Display Screen
+class Calculator {
+    constructor(calculatorScreen) {
+    this.calculatorScreen = calculatorScreen
+    this.clear()
+    }
 
-function displayValue(value) {
-    calculatorScreen.textContent = calculatorScreen.textContent + value;
 }
 
-function getDisplayValue() {
-    return calculatorScreen.textContent;
+
+updateDisplay() {
+    this.calculatorScreen.innerText = this.calculatorScreen
 }
+
 
 function clearDisplay() {
-    calculatorScreen.textContent = "";
+    this.calculatorScreen = "";
+    this.operation = undefined;
 }
 
 
@@ -44,9 +59,9 @@ function modulus() {
     return a % b;
 }
 
-//function squareRoot() {
-   // return a ;
-//}
+function squareRoot() {
+    return a * a;
+}
 
 
 function operate(a, b, operator) {
