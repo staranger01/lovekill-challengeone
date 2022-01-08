@@ -1,6 +1,5 @@
-
 // Variables for each button
-const buttons = document.querySelectorAll(".buttons-grid > .button]"); 
+const buttons = document.querySelectorAll(".buttons-section > .button]"); 
 const operator = document.querySelectorAll(".operator");
 const equalSign = document.getElementById("equals");
 const clearButton = document.getElementById("clear");
@@ -22,11 +21,6 @@ function clearDisplay() {
     calculatorScreen.textContent = "";
 }
 
-//function setOperator(operator) {
-   // if (currentOperator == null) {
-    //  currentOperator = operator;
-   
-  
 
 // Operators
 
@@ -64,10 +58,13 @@ function operate(a, b, operator) {
             return subtraction(a, b);
             break;
         case "multiply":
-            return multiply(a, b);
+            return multiplication(a, b);
             break;
         case "divide":
-            return divide(a, b);
+            return division(a, b);
+            break;
+        case "modulus":
+            return modulus(a, b);
             break;
     }
 }
