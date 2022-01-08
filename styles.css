@@ -7,7 +7,6 @@
   text-align: center;
   table-layout: auto;
   background-color: white;
-  background-image: linear-gradient(yellow, green, black);
   position: relative;
   margin: 10px auto 10px auto;
 
@@ -27,7 +26,6 @@
   padding: 10px;
   table-layout: auto;
   background-color: white;
-  background-image: linear-gradient(black, green,yellow);
 
 
 }
@@ -52,29 +50,18 @@ hr {
   border-radius: 12px;
   border: 2px solid white;
   cursor: pointer;
-  animation:zero;
 }
 
 .zero:hover {
   background-color:green;
-  animation: zero .1s linear infinite;
-  cursor:not-allowed;
 
 }
 
 .zero:active {
-
+  background-color: blue;
   color:black;
   box-shadow: 3px 5px 3px 1px green;
   transform: translateY(4px);
-
-}
-
-@keyframes zero {
-  0% { transform: rotate(0deg) skewY(0deg);}
-  33%{transform:rotate(180deg) skewY(180deg)}
-  66% { transform: rotate(270deg) skewY(270deg);}
-  100% { transform: rotate(360deg) skewY(360deg);}
 
 }
 
