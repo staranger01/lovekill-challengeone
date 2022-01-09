@@ -1,4 +1,5 @@
 // Variables for each button
+let calculatorScreen = "";
 const numberButtons = document.querySelectorAll("[data-number]"); 
 const operator = document.querySelectorAll("[data-operation]");
 const equalSign = document.getElementById("equals");
@@ -9,9 +10,16 @@ const calculatorScreen = document.getElementById("calculator-screen")
 
 const calculator = new Calculator(calculatorScreen)
 
-numberButtons.foreach(button => {
-    button.addeventListener('click', () => {
+numberButtons.forEach(button => {
+    button.addeventListener("click", () => {
         calculator.appendNumber(button.innerText)
+        calculator.updateDisplay()
+    })
+})
+
+operator.forEach(button => {
+    button.addeventListener("click", () => {
+        calculator.setOperation(operator.innerText)
         calculator.updateDisplay()
     })
 })
@@ -25,11 +33,16 @@ class Calculator {
 
 }
 
-
-updateDisplay() {
-    this.calculatorScreen.innerText = this.calculatorScreen
+function appendNumber(number) {
+    if (calculatorScreen.textContent === '0' || shouldResetScreen)
+      resetScreen()
+    currentOperationScreen.textContent += number
 }
 
+function resetScreen() {
+    calculatorScreen.textContent = ''
+    shouldResetScreen = false
+}
 
 function clearDisplay() {
     this.calculatorScreen = "";
