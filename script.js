@@ -78,6 +78,8 @@ function squareRoot() {
 
 
 function operate(a, b, operator) {
+    let a = Number(a);
+    let b = Number(b);
     switch(operator) {
         case "addition":
             return addition(a, b);
